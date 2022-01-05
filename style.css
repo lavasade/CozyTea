@@ -1,0 +1,146 @@
+html {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+header img {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.top-button {
+    font-size: 26px;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 517px){
+    header {
+       height: 4.318rem;
+       justify-content: center;
+    }
+}
+
+.containerMission {
+    height: 700px;
+    width: 1200px;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.missionText {
+    background-color: black;
+    width: 100%;
+}
+
+.containerTea {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1000px; 
+}
+
+.containerAllP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerAllP .picCon h4 {
+    margin-top: 10px;
+    padding: 0;
+}
+
+.picCon {
+    overflow: hidden;
+    margin: 15px;
+}
+
+.location {
+    min-height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    
+}
+
+.location-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 5px;
+    height: 40px;
+}
+
+.adressContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.smallCon {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.contact {
+    height: 200px;
+}
+
+footer {
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+
+
